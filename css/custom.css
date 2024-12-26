@@ -1,0 +1,37 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+/* Estilos de layout */
+main {
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.entonacion-card:hover {
+    transform: translateY(-1px); /* Efecto de elevación */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: rgba(186, 85, 105, 0.3); /* Vino rosado suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.alma-card:hover {
+    transform: translateY(-1px); /* Efecto de elevación */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: rgba(173, 216, 230, 0.3); /* Color azul suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+h2.text-center.mb-4.mt-5 {
+    padding-top: 1rem;
+}
+
+
+

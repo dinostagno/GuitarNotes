@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Proyecto Bootstrap 6</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar w/ text</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        Navbar text with an inline element
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Aquí se agrega mt-5 para separar el contenido del navbar fijo -->
+    <main class="container my-5 mt-5">
+        <section>
+            <h2 class="text-center mb-4 mt-5">Medidas de Acción de Cuerdas para Guitarra</h2>
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered table-hover table-sm">
+                    <thead class="table-success text-center">
+                        <tr>
+                            <th>#</th>
+                            <th>Acción Baja (E)</th>
+                            <th>Acción Alta (e)</th>
+                            <th>Acción Baja (E) - Milímetros</th>
+                            <th>Acción Alta (e) - Milímetros</th>
+                            <th>Radio Recomendado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>0.050" - Muy Baja</td>
+                            <td>0.040" - Muy Baja</td>
+                            <td>1.27 mm - Muy Baja</td>
+                            <td>1.02 mm - Muy Baja</td>
+                            <td>7.25" - 9.5"</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>0.060" - Baja</td>
+                            <td>0.050" - Baja</td>
+                            <td>1.52 mm - Baja</td>
+                            <td>1.27 mm - Baja</td>
+                            <td>9.5" - 12"</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>0.065" - Media</td>
+                            <td>0.055" - Media</td> 
+                            <td>1.65 mm - Media</td>
+                            <td>1.40 mm - Media</td>
+                            <td>12" - 16"</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>0.070" - Alta</td>
+                            <td>0.060" - Alta</td>
+                            <td>1.78 mm - Alta</td>
+                            <td>1.52 mm - Alta</td>
+                            <td>16" - 20"</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>0.075" - Muy Alta</td>
+                            <td>0.065" - Muy Alta</td>
+                            <td>1.91 mm - Muy Alta</td>
+                            <td>1.65 mm - Muy Alta</td>
+                            <td>20" - 24"</td>
+                        </tr>                        
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <h2 class="text-center mb-4">Ajuste del alma (truss rod)</h2>
+            <div class="row">
+                <div class="col-12 col-md-8 offset-md-2">
+                    <div class="card alma-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Cómo Ajustar el Alma de la Guitarra</h5>
+                            <ul>
+                                <li><strong>1. Localiza el alma:</strong> El alma se encuentra en el interior del mástil, generalmente en la parte posterior del mismo.</li>
+                                <li><strong>2. Usa la llave adecuada:</strong> Necesitarás una llave Allen (generalmente de 4 mm o 5 mm) para girar el tornillo del alma.</li>
+                                <li><strong>3. Ajuste hacia adelante (sentido horario):</strong> Si las cuerdas están demasiado altas y deseas reducir la acción, ajusta el alma hacia adelante, girando el tornillo en sentido horario.</li>
+                                <li><strong>4. Ajuste hacia atrás (sentido antihorario):</strong> Si las cuerdas están demasiado bajas y la guitarra está demasiado recta, ajusta el alma hacia atrás, girando el tornillo en sentido antihorario.</li>
+                            </ul>
+                            <p>Recuerda que siempre es importante realizar ajustes pequeños y revisar el resultado, ya que los cambios en el alma pueden afectar otros aspectos del rendimiento de la guitarra.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <h2 class="text-center mb-4">Ajuste de la Entonación de la Guitarra</h2>
+            <div class="row">
+                <div class="col-12 col-md-8 offset-md-2">
+                    <div class="card entonacion-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Cómo Ajustar la Entonación de la Guitarra</h5>
+                            <ul>
+                                <li><strong>1. Localiza los trastes:</strong> La entonación se ajusta en los trastes de la guitarra, normalmente en el traste 12.</li>
+                                <li><strong>2. Usa un afinador:</strong> Necesitarás un afinador preciso para medir la afinación en cada traste.</li>
+                                <li><strong>3. Ajuste de los puentes:</strong> Si las cuerdas están desafinadas en el traste 12, ajusta la posición del puente o la longitud de las cuerdas.</li>
+                                <li><strong>4. Verifica nuevamente:</strong> Después de realizar el ajuste, verifica la afinación en el traste 12 y en el traste abierto.</li>
+                            </ul>
+                            <p>Realiza pequeños ajustes y verifica constantemente, ya que la entonación es un ajuste delicado que afecta la afinación en todo el mástil.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Mi Proyecto Bootstrap</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
