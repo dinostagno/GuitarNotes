@@ -16,6 +16,15 @@ footer {
     margin-top: 20px;
 }
 
+.entonacion-card {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: rgba(186, 85, 105, 0.3); /* Vino rosado suave */
+}
+.alma-card {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: rgba(173, 216, 230, 0.3); /* Color azul suave */
+}
+
 .entonacion-card:hover {
     transform: translateY(-1px); /* Efecto de elevación */
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
